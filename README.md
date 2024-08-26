@@ -1,5 +1,25 @@
 # email-socket
+
+## Introduciton
 use email as your socket
+
+The "cal.py" file is the core of this repo, you can import it in your own file.
+The "client.py" and the "server.py" is an example to use the "cal.py"
+
+The "cal.py" establish a class named "Lib".
+
+The project use your email account as a proxy to link the outside world.
+Think as you have a email account called PROXY.
+A logs in PROXY and send an email MSG to PROXY.
+B logs in PROXY and find the MSG and get the info.
+that's the send() -> A and recv() -> B in the Lib.
+
+Attention! Effectless!
+
+## Usage
+Get it on client.py and server.py
+
+----
 
 i am a noob in English and code, 
 所以我用中文
